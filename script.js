@@ -10,6 +10,11 @@ const newsletterForm = document.querySelector('.newsletter-form');
 const eventArrows = document.querySelectorAll('.event-card .card-arrow');
 const newsArrows = document.querySelectorAll('.news-card .card-arrow');
 const allSignupButtons = [desktopSignupBtn, mobileSignupBtn, heroSignupBtn];
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll(".nav-menu a");
+
+
+
 
 
 function toggleMobileMenu() {
